@@ -1,0 +1,46 @@
+/* src/styles/RentalPage.css */
+.rental-page {
+  padding: 20px;
+}
+
+.equipment-list,
+.add-equipment,
+.user-equipment {
+  margin-bottom: 20px;
+}
+
+.equipment-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.equipment-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
